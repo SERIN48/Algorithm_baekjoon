@@ -1,3 +1,4 @@
+#1747
 #소수 & 팰린드롬
 
 import math
@@ -17,12 +18,13 @@ def isPrime(n) :
 #팰린드롬 
 def isPalindrome(n) :
     num = str(n)
-    
    
-    if n == num[::-1]:
+    if num == num[::-1]:
         return True
     else :
         return False
+
+#최대값 확인용 작성하기
 
 while True :
     if isPalindrome(n) :
